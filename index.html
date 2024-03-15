@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Topic: Forms</h1>
+    <a href="form2.html">form 2</a>
+    <br>
+    <br>
+    <form action="https://example.com/submit_form.php" method="get">  
+        <label for="fname">First Name:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="lname" name="lname">
+        <br>
+        <br>
+        <p>Date Of Birth
+            &nbsp;&nbsp;&nbsp;
+        <select name="dob_day" id="dob_day">
+            <option value="." disabled>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+            <select name="dob_month" id="dob_month">
+            <option value="." disabled>Month</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </p>
+    </select>
+    <select name="dob_year" id="dob_year">
+        <option value="." disabled>Year</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+    </select>
+    <br>
+    <br>
+    <label for="email">Email ID:</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="email" name="email">
+    <br>
+    <br>
+    <label for="number">Mobile Number</label>
+    <input type="text" id="number" name="number">
+    <br>
+    <br>
+    <p>
+        Gender:
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" value="Male" checked> Male
+        <input type="radio" name="gender" value="Female" checked> Female
+    </p>
+    <br>
+        <p>
+            Address:         
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="address" id="address" cols="15" rows="5"></textarea>
+            </p>
+            <label for="city">City:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="city" name="city">
+            <br>
+            <br>
+            <label for="pin">Pin Code:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="pin" name="pin">
+        <br>
+        <br>
+        <label for="state">State:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="state" id="state">
+        <br>
+        <br>
+        <label for="country">Country:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="country" id="country">
+        <br>
+        <br>
+        <label for="hobbies">Hobbies:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="hobbies" value="drawing" checked> Drawing
+        <input type="checkbox" name="hobbies" value="singing"> Singing
+        <input type="checkbox" name="hobbies" value="dancing"> Dancing
+        <input type="checkbox" name="hobbies" value="sketching">sketching
+        <input type="checkbox" name="hobbies" value="others">others
+        <input type="text">
+        <br>
+        <br>
+           <p><label for="qualification">Qualification</label>
+            <table border="1px">
+                <tr>
+                    <td>SL.No.</td>
+                    <td>Examination</td>
+                    <td>Board</td>
+                    <td>Percentage</td>
+                    <td>Year Of Passing</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+            </table>
+            </p>
+            <label for="courses"> Courses Applied For:</label>
+            <input type="radio" id="courses" name="courses" ch> BCA
+            <input type="radio" id="courses" name="courses"> B.Com
+            <input type="radio" id="courses" name="courses"> B.Sc
+            <input type="radio" id="courses" name="courses"> B.A
+
+
+
+       
+
+    </form>
+</body>
+</html>
